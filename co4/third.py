@@ -4,7 +4,7 @@ class rectangle:
         self.__breadth=breadth
     def area(self):
         return self.__length*self.__breadth
-    def __it__(self,other):
+    def __lt__(self,other):
         return self.area<other.area
 obj1=rectangle(6,4)
 obj2=rectangle(4,5)
